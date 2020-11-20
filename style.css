@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    border-bottom: 1px solid #e1e1e2;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 72px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.sidebar__info img{
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.sidebar__info{
+    display: flex;
+    background-color: #eff2f5;
+    padding: 20px;
+    padding-right: 100px;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.sidebarinfo__text a{
+    color: #b4b2b1;
+    text-decoration: none;
+}
+
+.sidebar__events{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #eff2f5;
+    border-radius: 35px;
+    padding-left: 30px;
+    margin-right: 20px;
+    border-bottom: 1px solid #4b4949;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar__events a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.sidebar__assignments{
+    background-color: #eff2f5;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar__assignments h4 a{
+    color: #494949;
+    text-decoration: none;
+}
+
+.sidebar{
+    margin-right: 20px;
+    border-right: .2px solid #d0d2d4;
+}
+
+.home{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+nav{
+    justify-content: space-evenly;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.cards{
+    background-color: #eff2f5;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.cards__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__top a{
+    margin-left: 110px;
+    background-color: #cfd1d3;
+    padding: 5px;
+    border-radius: 20px;
+    color: #494949;
+    text-decoration: none;
+    transition: all .7s ease;
+}
+
+.cards__top a:hover{
+    background-color: #e7e7e7;
+}
+
+.upcoming{
+    margin-left: 20px;
+    background-color: #eff2f5;
+    margin-bottom: 700px;
+    padding: 15px;
+    border-radius: 30px;
+}
